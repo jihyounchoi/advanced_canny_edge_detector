@@ -11,6 +11,7 @@ This project aims to enhance the cv2.Canny() edge detector by addressing its lim
 
 ## File Structure
 - `/dataset`: Contains image files used for edge detection.
+- `/dataset_edge`: Contains results after edge detection.
 - `edge_linker.py`, `gaussian_blur.py`, `histogram_equalization.py`, `non_maximum_suppression.py`, `thresholding.py`: Utility modules for implementing various aspects of the Canny edge detector.
 - `utils.py`: Contains globally used utilities.
 
