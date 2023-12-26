@@ -38,16 +38,16 @@ from histogram_equalization.py import equalize_histogram
 from non_maximum_suppression.py import non_maximum_suppression_interpolation
 from thresholding.py import otsu_two_thresholds, thresholding
 from edge_linker.py import edge_linking_by_hysteresis
-```
 
-## Load and process the image
+# Load and process the image
 image_path = "dataset/your_image.png"
 image_gray = Image.open(image_path).convert("L")
 image_processed = advanced_edge_detector(np.array(image_gray))
 
-## Visualize the result
+# Visualize the result
 plt.imshow(image_processed, cmap='gray')
 plt.show()
+```
 
 ## Note
 The edge_linker, non_maximum_suppression, and thresholding modules contain various methods explored during the implementation, providing insight into the development process.  
